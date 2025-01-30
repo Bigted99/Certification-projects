@@ -1,0 +1,95 @@
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+   margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+ background-color:  #2b4375;
+ width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+}
+
+main{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.5rem 0 1.5rem;
+    margin: 3rem auto;
+    height: 50vh;
+
+}
+
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left:0.5rem;
+  padding-right: 0.5rem;
+}
+
+#yin-icon {
+  height: 6rem;
+  object-fit: cover;
+}
+
+button {
+  height: 25px;
+  cursor: pointer;
+  border-radius: 1rem ;
+
+  background-color: purple;
+}
+
+#text-input {
+  
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid purple;
+}
+
+#hint {
+  text-align: center;
+  height: 100px;
+ max-width: 280px;
+  padding: auto 0.5rem;
+  background-color: #ebda9c;
+ margin: 2rem ;
+}
+
+#result {
+  max-width: 100%;
+  background-color: #fdd325;
+  display: block;
+  margin: 1rem;
+  color: azure;
+}
+
+#palindrome-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ background-color: #fffe;
+ border-radius: 14px 11px;
+
+ width: 500px;
+}
+
+label {
+   padding: 1rem;
+  align-items: flex-start;
+}
+
+.input-btn-div {
+  margin: 1rem;
+}
+
